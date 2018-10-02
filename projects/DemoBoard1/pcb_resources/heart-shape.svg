@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="heart-shape.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   version="1.1"
+   viewBox="0 0 211.77876 180.89616"
+   height="51.052914mm"
+   width="59.768669mm"
+   id="svg2">
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:window-height="1027"
+     inkscape:window-width="1920"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     inkscape:current-layer="svg2"
+     inkscape:document-units="mm"
+     inkscape:cy="133.67054"
+     inkscape:cx="89.734172"
+     inkscape:zoom="2"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:measure-start="-139.5,48.5"
+     inkscape:measure-end="-0.0528266,-96.1188" />
+  <title
+     id="title1">Heart</title>
+  <metadata
+     id="metadata">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Heart</dc:title>
+        <dc:date />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Uri Shaked</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>CC-BY-SA</dc:title>
+          </cc:Agent>
+        </dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7" />
+  <path
+     style="fill:#800080;stroke:#000000;stroke-width:0.71275795;stroke-miterlimit:4;stroke-dasharray:none"
+     d="M105.88936 180.64399L15.880711 90.761009L12.241614 86.738218L9.0878449 82.452097L6.4193969 77.940275L4.2362659 73.240382L2.5384459 68.390045L1.3259259 63.426895L0.59870594 58.38856L0.35678594 53.312669L0.60015594 48.236851L1.3288059 43.198734L2.5427259 38.235948L4.2419259 33.386122L6.4263909 28.686884L9.0961169 24.175864L12.251098 19.89069L15.891329 15.868991L19.918666 12.233975L24.209848 9.0835153L28.727192 6.4176174L33.433016 4.236288L38.289639 2.5395335L43.259377 1.3273603L48.304549 0.59977488L53.387472 0.35678365L58.470464 0.59839304L63.515842 1.3246095L68.485926 2.5354394L73.343032 4.2308892L78.049477 6.4109654L82.567581 9.0756744L86.85966 12.225023L90.888033 15.859016L105.88936 30.839341L120.89069 15.859016L124.91906 12.225023L129.21114 9.0756757L133.72924 6.4109697L138.43569 4.2308994L143.2928 2.5354593L148.26288 1.3246438L153.30826 0.59844751L158.39126 0.35686496L163.47419 0.59989066L168.51936 1.3275191L173.48911 2.5397449L178.34574 4.2365624L183.05157 6.4179663L187.56892 9.0839511L191.86011 12.234511L195.88746 15.869641L199.52769 19.89134L202.68266 24.176515L205.35238 28.687535L207.53684 33.386771L209.23604 38.236594L210.44996 43.199374L211.1786 48.237482L211.42197 53.313288L211.18004 58.389163L210.45283 63.427476L209.24031 68.3906L207.54249 73.240904L205.35936 77.940758L202.69092 82.452534L199.53716 86.738602L195.89807 90.761331L105.88936 180.64399"
+     id="path5"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccscc" />
+</svg>
