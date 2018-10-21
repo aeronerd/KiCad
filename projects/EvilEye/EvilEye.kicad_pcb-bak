@@ -1,11 +1,8 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.1)-rc2")
 
   (general
-    (links 0)
-    (no_connects 0)
-    (area 180.010999 58.598999 260.679001 115.645001)
     (thickness 1.6)
-    (drawings 14)
+    (drawings 15)
     (tracks 1888)
     (zones 0)
     (modules 90)
@@ -61,11 +58,15 @@
     (pad_size 2.54 3.51)
     (pad_drill 0)
     (pad_to_mask_clearance 0.2)
+    (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -74,8 +75,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -286,10 +286,10 @@
   (module CustomFootprintArtworkLibrary:border_ivy_copper (layer F.Cu) (tedit 0) (tstamp 5BB152F5)
     (at 250.698 80.518 180)
     (fp_text reference G*** (at 0 0 180) (layer F.Mask) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at 0.75 0 180) (layer F.Mask) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 7.206263 18.215963) (xy 7.271571 18.433073) (xy 7.281593 18.739761) (xy 7.241648 19.067485)
       (xy 7.157054 19.347708) (xy 7.112 19.431) (xy 6.943782 19.685) (xy 6.943224 19.457164)
@@ -2976,7 +2976,7 @@
     )
   )
 
-  (module LEDs:LED_1206 (layer F.Cu) (tedit 5BAF054A) (tstamp 5B8C695A)
+  (module LEDs:LED_1206 (layer F.Cu) (tedit 5BB1446F) (tstamp 5B8C695A)
     (at 186.056 88.9)
     (descr "LED 1206 smd package")
     (tags "LED led 1206 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -4706,10 +4706,10 @@
     (tags svg2mod)
     (attr smd)
     (fp_text reference svg2mod (at 0 8.056576 180) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_text value G*** (at 0 -8.056576 180) (layer B.SilkS) hide
-      (effects (font (thickness 0.3048)) (justify mirror))
+      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_poly (pts (xy -1.980338 2.075986) (xy -2.094814 0.823808) (xy -1.832128 0.741127) (xy -1.598937 0.586581)
       (xy -1.417769 0.38014) (xy -1.311149 0.141776) (xy -1.352608 -0.0886) (xy -1.472293 -0.305575)
@@ -4802,10 +4802,10 @@
   (module CustomFootprintArtworkLibrary:border_ivy_copper (layer F.Cu) (tedit 0) (tstamp 5BB1494A)
     (at 191.008 94.996)
     (fp_text reference G*** (at 0 0) (layer F.Mask) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_text value LOGO (at 0.75 0) (layer F.Mask) hide
-      (effects (font (thickness 0.3)))
+      (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
     (fp_poly (pts (xy 7.206263 18.215963) (xy 7.271571 18.433073) (xy 7.281593 18.739761) (xy 7.241648 19.067485)
       (xy 7.157054 19.347708) (xy 7.112 19.431) (xy 6.943782 19.685) (xy 6.943224 19.457164)
@@ -6105,6 +6105,9 @@
     (pad 1 smd rect (at 0 0 270) (size 3.8 2) (layers B.Cu B.Paste B.Mask))
   )
 
+  (gr_text "wrong footprint for transistors (flipped on back necessary)" (at 221.234 55.118) (layer B.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
+  )
   (gr_line (start 180.34 59.944) (end 180.34 115.57) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 261.62 59.944) (end 180.34 59.944) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 261.62 115.57) (end 261.62 59.944) (layer Edge.Cuts) (width 0.15))

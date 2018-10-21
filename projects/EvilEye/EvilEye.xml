@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\cygwin64\home\doug\git\dev\KiCad\projects\EvilEye\EvilEye.sch</source>
+    <date>10/15/2018 6:41:33 PM</date>
+    <tool>Eeschema (5.0.1)-rc2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>EvilEye.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>ATMEGA328P-AU</value>
+      <footprint>Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm</footprint>
+      <libsource lib="atmel" part="ATMEGA328P-AU" description="TQFP32, 32k Flash, 2kB SRAM, 1kB EEPROM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C2E67</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2219</value>
+      <footprint>adafruit:SOT23</footprint>
+      <libsource lib="transistors" part="2N2219" description="Vce 50V, Ic 800mA, NPN Transistor, TO-39"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C2EE2</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C306B</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>CustomFootprintLibrary:2032-CoinCell-top-bottom</footprint>
+      <libsource lib="Device" part="Battery_Cell" description="Single-cell battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C311A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CAP1188-1-CP-TR</value>
+      <footprint>CustomFootprintLibrary:QFN50P400X400X90-25N</footprint>
+      <datasheet>Good</datasheet>
+      <fields>
+        <field name="Field4">1.10 USD</field>
+        <field name="Field5">CAP1188-1-CP-TR</field>
+        <field name="Field6">QFN-24 Microchip</field>
+        <field name="Field7">3 - 3.6 V 120 uA 8 Ch 2-Wire Capacitive Touch Sensor w/ 8 LED Drivers - QFN-24</field>
+        <field name="Field8">Microchip</field>
+      </fields>
+      <libsource lib="CustomSchematicLibrary" part="CAP1188-1-CP-TR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C3791</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>CustomFootprintLibrary:SW_SPDT_SMD</footprint>
+      <libsource lib="switches" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C3962</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C573F</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5A09</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5A0F</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5B4F</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5B55</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5B5B</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5B61</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5D37</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5D3D</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FC1</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FC7</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FCD</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FD3</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FD9</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FDF</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FE5</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FEB</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FF1</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C5FF7</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C682F</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6835</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C683B</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6841</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C695F</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6965</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C696B</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6971</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6977</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C697D</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6983</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6989</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C698F</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6995</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B35</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B3B</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B41</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B47</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B4D</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B53</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B59</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B5F</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B65</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6B6B</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6C7F</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6C85</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6C8B</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6C91</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6C97</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6C9D</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6CA3</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6CA9</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6CAF</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C6CB5</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C8D78</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>LED</value>
+      <footprint>LEDs:LED_1206</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8C8D7E</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N2219</value>
+      <footprint>adafruit:SOT23</footprint>
+      <libsource lib="transistors" part="2N2219" description="Vce 50V, Ic 800mA, NPN Transistor, TO-39"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8D7228</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>2N2219</value>
+      <footprint>adafruit:SOT23</footprint>
+      <libsource lib="transistors" part="2N2219" description="Vce 50V, Ic 800mA, NPN Transistor, TO-39"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8D74FD</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>2N2219</value>
+      <footprint>adafruit:SOT23</footprint>
+      <libsource lib="transistors" part="2N2219" description="Vce 50V, Ic 800mA, NPN Transistor, TO-39"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8D76A3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B91066F</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B910F93</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B911253</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B91140A</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9196A8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B91A1DC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B91A397</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B91A555</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B925C90</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B92A538</tstamp>
+    </comp>
+    <comp ref="SER_RXD1">
+      <value>Conn_01x01</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="Conn_01x01" description="Generic connector, single row, 01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B92F78E</tstamp>
+    </comp>
+    <comp ref="SER_TXD1">
+      <value>Conn_01x01</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="Conn_01x01" description="Generic connector, single row, 01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B92FF37</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B94B17B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B94BD33</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB01B45</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB04AC3</tstamp>
+    </comp>
+    <comp ref="SPI_MOSI1">
+      <value>Conn_01x01</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="Conn_01x01" description="Generic connector, single row, 01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB0BEB8</tstamp>
+    </comp>
+    <comp ref="SPI_MISO1">
+      <value>Conn_01x01</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="Conn_01x01" description="Generic connector, single row, 01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB0C5FF</tstamp>
+    </comp>
+    <comp ref="SPI_SCK1">
+      <value>Conn_01x01</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="Conn_01x01" description="Generic connector, single row, 01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB0C70F</tstamp>
+    </comp>
+    <comp ref="SPI_RESET1">
+      <value>Conn_01x01</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="Conn_01x01" description="Generic connector, single row, 01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB0C822</tstamp>
+    </comp>
+    <comp ref="SENSE1">
+      <value>Conn_01x01</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="Conn_01x01" description="Generic connector, single row, 01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BB0E551</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CustomSchematicLibrary" part="CAP1188-1-CP-TR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CAP1188-1-CP-TR</field>
+        <field name="Footprint">QFN50P400X400X90-25N</field>
+        <field name="Datasheet">Good</field>
+        <field name="Field4">1.10 USD</field>
+        <field name="Field5">CAP1188-1-CP-TR</field>
+        <field name="Field6">QFN-24 Microchip</field>
+        <field name="Field7">3 - 3.6 V 120 uA 8 Ch 2-Wire Capacitive Touch Sensor w/ 8 LED Drivers - QFN-24</field>
+        <field name="Field8">Microchip</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~SPI_CS#~" type="input"/>
+        <pin num="2" name="WAKE/SPI_MOSI" type="BiDi"/>
+        <pin num="3" name="SMDATA/SPI_MSIO/SPI_MISO" type="BiDi"/>
+        <pin num="4" name="SMCLK/BC_CLK/SPI_CLK" type="input"/>
+        <pin num="5" name="LED1" type="output"/>
+        <pin num="6" name="LED2" type="output"/>
+        <pin num="7" name="LED3" type="output"/>
+        <pin num="8" name="LED4" type="output"/>
+        <pin num="9" name="LED5" type="output"/>
+        <pin num="10" name="LED6" type="output"/>
+        <pin num="11" name="LED7" type="output"/>
+        <pin num="12" name="LED8" type="output"/>
+        <pin num="13" name="ALERT#" type="output"/>
+        <pin num="14" name="ADDR_COMM" type="input"/>
+        <pin num="15" name="CS8" type="BiDi"/>
+        <pin num="16" name="CS7" type="BiDi"/>
+        <pin num="17" name="CS6" type="BiDi"/>
+        <pin num="18" name="CS5" type="BiDi"/>
+        <pin num="19" name="CS4" type="BiDi"/>
+        <pin num="20" name="CS3" type="BiDi"/>
+        <pin num="21" name="CS2" type="BiDi"/>
+        <pin num="22" name="CS1" type="BiDi"/>
+        <pin num="23" name="VDD" type="power_in"/>
+        <pin num="24" name="RESET" type="input"/>
+        <pin num="25" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="atmel" part="ATMEGA168A-AU">
+      <aliases>
+        <alias>ATMEGA48A-AU</alias>
+        <alias>ATMEGA48PA-AU</alias>
+        <alias>ATMEGA88A-AU</alias>
+        <alias>ATMEGA88PA-AU</alias>
+        <alias>ATMEGA168PA-AU</alias>
+        <alias>ATMEGA328-AU</alias>
+        <alias>ATMEGA328P-AU</alias>
+      </aliases>
+      <description>TQFP32, 16k Flash, 1kB SRAM, 512B EEPROM</description>
+      <docs>http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*Pitch0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA168A-AU</field>
+        <field name="Footprint">Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(PCINT19/OC2B/INT1)PD3" type="BiDi"/>
+        <pin num="2" name="(PCINT20/XCK/T0)PD4" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VCC" type="power_in"/>
+        <pin num="7" name="(PCINT6/XTAL1/TOSC1)PB6" type="BiDi"/>
+        <pin num="8" name="(PCINT7/XTAL2/TOSC2)PB7" type="BiDi"/>
+        <pin num="9" name="(PCINT21/OC0B/T1)PD5" type="BiDi"/>
+        <pin num="10" name="(PCINT22/OC0A/AIN0)PD6" type="BiDi"/>
+        <pin num="11" name="(PCINT23/AIN1)PD7" type="BiDi"/>
+        <pin num="12" name="(PCINT0/CLKO/ICP1)PB0" type="BiDi"/>
+        <pin num="13" name="(PCINT1/OC1A)PB1" type="BiDi"/>
+        <pin num="14" name="(PCINT2/OC1B/~SS~)PB2" type="BiDi"/>
+        <pin num="15" name="(PCINT3/OC2A/MOSI)PB3" type="BiDi"/>
+        <pin num="16" name="(PCINT4/MISO)PB4" type="BiDi"/>
+        <pin num="17" name="(PCINT5/SCK)PB5" type="BiDi"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="BiDi"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="(PCINT8/ADC0)PC0" type="BiDi"/>
+        <pin num="24" name="(PCINT9/ADC1)PC1" type="BiDi"/>
+        <pin num="25" name="(PCINT10/ADC2)PC2" type="BiDi"/>
+        <pin num="26" name="(PCINT11/ADC3)PC3" type="BiDi"/>
+        <pin num="27" name="(PCINT12/SDA/ADC4)PC4" type="BiDi"/>
+        <pin num="28" name="(PCINT13/SCL/ADC5)PC5" type="BiDi"/>
+        <pin num="29" name="(PCINT14/~RESET~)PC6" type="BiDi"/>
+        <pin num="30" name="(PCINT16/RXD)PD0" type="BiDi"/>
+        <pin num="31" name="(PCINT17/TXD)PD1" type="BiDi"/>
+        <pin num="32" name="(PCINT18/INT0)PD2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="2N2219">
+      <aliases>
+        <alias>BC140</alias>
+        <alias>BC141</alias>
+      </aliases>
+      <description>Vce 50V, Ic 800mA, NPN Transistor, TO-39</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</docs>
+      <footprints>
+        <fp>TO?39*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2219</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-39-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CustomSchematicLibrary">
+      <uri>C:/cygwin64/home/doug/git/dev/KiCad/lib/CustomSchematicLibrary.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="atmel">
+      <uri>C:\Program Files\KiCad\share\kicad\library/atmel.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library/conn.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>C:\Program Files\KiCad\share\kicad\library/switches.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library/transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="2" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="3" name="Net-(Q3-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q4-Pad3)">
+      <node ref="R12" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="6" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="7" name="Net-(Q2-Pad3)">
+      <node ref="R10" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="8" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D43-Pad1)">
+      <node ref="D45" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D53" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D15-Pad1)">
+      <node ref="D21" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D22" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D29-Pad1)">
+      <node ref="D39" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="12" name="CAP_WAKE">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="14" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="15" name="VCC">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="14"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U2" pin="4"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="17" name="SPI_MOSI">
+      <node ref="SPI_MOSI1" pin="1"/>
+      <node ref="U2" pin="15"/>
+      <node ref="D46" pin="2"/>
+      <node ref="D32" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="18" name="SPI_MISO">
+      <node ref="D5" pin="2"/>
+      <node ref="U2" pin="16"/>
+      <node ref="SPI_MISO1" pin="1"/>
+      <node ref="D33" pin="2"/>
+      <node ref="D47" pin="2"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="19" name="SPI_SCK">
+      <node ref="U2" pin="17"/>
+      <node ref="D48" pin="2"/>
+      <node ref="D20" pin="2"/>
+      <node ref="D34" pin="2"/>
+      <node ref="SPI_SCK1" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="20" name="SPI_RESET">
+      <node ref="U2" pin="29"/>
+      <node ref="R2" pin="2"/>
+      <node ref="SPI_RESET1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(SENSE1-Pad1)">
+      <node ref="U1" pin="22"/>
+      <node ref="SENSE1" pin="1"/>
+    </net>
+    <net code="22" name="I2C_SCL">
+      <node ref="U1" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="23" name="ROW3">
+      <node ref="D3" pin="2"/>
+      <node ref="U2" pin="14"/>
+      <node ref="D31" pin="2"/>
+      <node ref="D45" pin="2"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="24" name="ROW10">
+      <node ref="D24" pin="2"/>
+      <node ref="D38" pin="2"/>
+      <node ref="U2" pin="24"/>
+      <node ref="D52" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="25" name="ROW11">
+      <node ref="D39" pin="2"/>
+      <node ref="D11" pin="2"/>
+      <node ref="D25" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="26" name="ROW12">
+      <node ref="D40" pin="2"/>
+      <node ref="U2" pin="26"/>
+      <node ref="D12" pin="2"/>
+      <node ref="D54" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="27" name="ROW9">
+      <node ref="D51" pin="2"/>
+      <node ref="U2" pin="23"/>
+      <node ref="D37" pin="2"/>
+      <node ref="D23" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="25"/>
+      <node ref="U1" pin="18"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="U2" pin="21"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="21"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="29" name="COL1">
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="30" name="ROW7">
+      <node ref="D49" pin="2"/>
+      <node ref="D35" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="31" name="ROW8">
+      <node ref="D8" pin="2"/>
+      <node ref="D22" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="D50" pin="2"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="32" name="COL2">
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="33" name="COL3">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="34" name="SER_TXD">
+      <node ref="SER_TXD1" pin="1"/>
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="35" name="ROW1">
+      <node ref="D43" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="D15" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="36" name="ROW13">
+      <node ref="D55" pin="2"/>
+      <node ref="D13" pin="2"/>
+      <node ref="D41" pin="2"/>
+      <node ref="D27" pin="2"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="37" name="ROW2">
+      <node ref="U2" pin="13"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D30" pin="2"/>
+      <node ref="D44" pin="2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D1-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="39" name="I2C_SDA">
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="27"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="46" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="49" name="SER_RXD">
+      <node ref="SER_RXD1" pin="1"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="50" name="COL4">
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="51" name="ROW14">
+      <node ref="U2" pin="1"/>
+      <node ref="D42" pin="2"/>
+      <node ref="D14" pin="2"/>
+      <node ref="D28" pin="2"/>
+      <node ref="D56" pin="2"/>
+    </net>
+  </nets>
+</export>
