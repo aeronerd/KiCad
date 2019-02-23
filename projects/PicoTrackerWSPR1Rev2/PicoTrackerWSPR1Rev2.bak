@@ -730,7 +730,7 @@ L conn:Conn_01x01 CONN9
 U 1 1 5AD561A2
 P 8400 8400
 F 0 "CONN9" H 8400 8500 50  0000 C CNN
-F 1 "SCL_TAP" H 8400 8300 50  0000 C CNN
+F 1 "SDA_TAP" H 8400 8300 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 8400 8400 50  0001 C CNN
 F 3 "" H 8400 8400 50  0001 C CNN
 	1    8400 8400
@@ -741,7 +741,7 @@ L conn:Conn_01x01 CONN10
 U 1 1 5AD56ACA
 P 8400 8700
 F 0 "CONN10" H 8400 8800 50  0000 C CNN
-F 1 "SDA_TAP" H 8400 8600 50  0000 C CNN
+F 1 "SCL_TAP" H 8400 8600 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 8400 8700 50  0001 C CNN
 F 3 "" H 8400 8700 50  0001 C CNN
 	1    8400 8700
@@ -854,16 +854,16 @@ REG_PS_CTL
 $Comp
 L conn:Conn_01x01 CONN7
 U 1 1 5AD5DC66
-P 7650 9050
-F 0 "CONN7" H 7650 9150 50  0000 C CNN
-F 1 "VCC_TAP" H 7650 8950 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7650 9050 50  0001 C CNN
-F 3 "" H 7650 9050 50  0001 C CNN
-	1    7650 9050
+P 6950 9550
+F 0 "CONN7" H 6950 9650 50  0000 C CNN
+F 1 "BATT_TAP" H 6950 9450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 9550 50  0001 C CNN
+F 3 "" H 6950 9550 50  0001 C CNN
+	1    6950 9550
 	1    0    0    -1  
 $EndComp
-Text GLabel 7450 9050 0    60   Input ~ 0
-VCC
+Text GLabel 6750 9550 0    60   Input ~ 0
+BATT
 NoConn ~ 8950 9800
 NoConn ~ 8950 10350
 Wire Wire Line
@@ -974,43 +974,30 @@ Wire Wire Line
 	13800 8750 13700 8800
 Connection ~ 13700 8800
 $Comp
-L conn:Conn_01x01 CONN8
-U 1 1 5C711443
-P 7650 9350
-F 0 "CONN8" H 7650 9450 50  0000 C CNN
-F 1 "GND_TAP" H 7650 9250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7650 9350 50  0001 C CNN
-F 3 "" H 7650 9350 50  0001 C CNN
-	1    7650 9350
-	1    0    0    -1  
-$EndComp
-Text GLabel 7450 9350 0    60   Input ~ 0
-GND
-$Comp
 L conn:Conn_01x01 CONN3
 U 1 1 5C713AD8
-P 6950 9050
-F 0 "CONN3" H 6950 9150 50  0000 C CNN
-F 1 "VCC_INPUT" H 6950 8950 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 9050 50  0001 C CNN
-F 3 "" H 6950 9050 50  0001 C CNN
-	1    6950 9050
+P 6950 8700
+F 0 "CONN3" H 6950 8800 50  0000 C CNN
+F 1 "BATT_INPUT" H 6950 8600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 8700 50  0001 C CNN
+F 3 "" H 6950 8700 50  0001 C CNN
+	1    6950 8700
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 9050 0    60   Input ~ 0
-VCC
+Text GLabel 6750 8700 0    60   Input ~ 0
+BATT
 $Comp
 L conn:Conn_01x01 CONN4
 U 1 1 5C713ADF
-P 6950 9350
-F 0 "CONN4" H 6950 9450 50  0000 C CNN
-F 1 "GND_INPUT" H 6950 9250 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 9350 50  0001 C CNN
-F 3 "" H 6950 9350 50  0001 C CNN
-	1    6950 9350
+P 6950 9000
+F 0 "CONN4" H 6950 9100 50  0000 C CNN
+F 1 "GND_INPUT" H 6950 8900 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 9000 50  0001 C CNN
+F 3 "" H 6950 9000 50  0001 C CNN
+	1    6950 9000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 9350 0    60   Input ~ 0
+Text GLabel 6750 9000 0    60   Input ~ 0
 GND
 Wire Notes Line
 	6350 10600 9600 10600
@@ -1163,4 +1150,30 @@ Wire Wire Line
 	1400 5700 2050 5700
 Text Notes 10750 2650 0    50   ~ 0
 Cut Trace for\nmisbehaving modules
+$Comp
+L conn:Conn_01x01 CONN8
+U 1 1 5C70A805
+P 6950 9850
+F 0 "CONN8" H 6950 9950 50  0000 C CNN
+F 1 "VCC_TAP" H 6950 9750 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 9850 50  0001 C CNN
+F 3 "" H 6950 9850 50  0001 C CNN
+	1    6950 9850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 9850 0    60   Input ~ 0
+VCC
+$Comp
+L conn:Conn_01x01 CONN25
+U 1 1 5C70A80C
+P 6950 10150
+F 0 "CONN25" H 6950 10250 50  0000 C CNN
+F 1 "GND_TAP" H 6950 10050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 10150 50  0001 C CNN
+F 3 "" H 6950 10150 50  0001 C CNN
+	1    6950 10150
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 10150 0    60   Input ~ 0
+GND
 $EndSCHEMATC
