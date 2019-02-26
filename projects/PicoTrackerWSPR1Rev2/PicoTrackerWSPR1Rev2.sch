@@ -928,7 +928,7 @@ Wire Wire Line
 Wire Wire Line
 	12400 3250 12500 3250
 Text GLabel 3950 6250 2    60   Input ~ 0
-VBATT
+VBATT_SENSE
 Text Notes 7700 7450 0    50   ~ 0
 Break-off Parts
 $Comp
@@ -1127,14 +1127,6 @@ Wire Wire Line
 	6300 3950 6300 4200
 Text GLabel 7000 3950 2    50   Input ~ 0
 VBATT
-Wire Notes Line
-	5700 3500 5700 4650
-Wire Notes Line
-	5700 4650 7450 4650
-Wire Notes Line
-	7450 4650 7450 3500
-Wire Notes Line
-	7450 3500 5700 3500
 $Comp
 L CustomSchematicLibrary:ATMEGA328P-AU U1
 U 1 1 5C7AE13A
@@ -1176,4 +1168,55 @@ F 3 "" H 6950 10150 50  0001 C CNN
 $EndComp
 Text GLabel 6750 10150 0    60   Input ~ 0
 GND
+$Comp
+L Device:R_Small R7
+U 1 1 5C74C6E2
+P 7500 4000
+F 0 "R7" H 7530 4020 50  0000 L CNN
+F 1 "1M" H 7530 3960 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7500 4000 50  0001 C CNN
+F 3 "" H 7500 4000 50  0001 C CNN
+	1    7500 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5C74CD20
+P 7500 4400
+F 0 "R8" H 7530 4420 50  0000 L CNN
+F 1 "1M" H 7530 4360 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7500 4400 50  0001 C CNN
+F 3 "" H 7500 4400 50  0001 C CNN
+	1    7500 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5C74CDAA
+P 7500 4650
+F 0 "#PWR06" H 7500 4400 50  0001 C CNN
+F 1 "GND" H 7500 4500 50  0000 C CNN
+F 2 "" H 7500 4650 50  0001 C CNN
+F 3 "" H 7500 4650 50  0001 C CNN
+	1    7500 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 3700 2    50   Input ~ 0
+VBATT
+Wire Wire Line
+	7500 3700 7500 3900
+Wire Wire Line
+	7500 4650 7500 4500
+Wire Wire Line
+	7500 4100 7500 4300
+Text GLabel 7500 4200 2    50   Input ~ 0
+VBATT_SENSE
+Wire Notes Line
+	5700 3500 5700 4900
+Wire Notes Line
+	5700 4900 8150 4900
+Wire Notes Line
+	8150 4900 8150 3500
+Wire Notes Line
+	8150 3500 5700 3500
 $EndSCHEMATC
