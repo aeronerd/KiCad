@@ -109,12 +109,12 @@ VBATT
 $Comp
 L Device:C_Small C1
 U 1 1 5A6E095C
-P 1700 8250
-F 0 "C1" H 1710 8320 50  0000 L CNN
-F 1 ".1uF" H 1710 8170 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1700 8250 50  0001 C CNN
-F 3 "" H 1700 8250 50  0001 C CNN
-	1    1700 8250
+P 3000 8650
+F 0 "C1" H 3010 8720 50  0000 L CNN
+F 1 ".1uF" H 3010 8570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3000 8650 50  0001 C CNN
+F 3 "" H 3000 8650 50  0001 C CNN
+	1    3000 8650
 	1    0    0    -1  
 $EndComp
 Text GLabel 14700 1450 2    60   Input ~ 0
@@ -125,9 +125,9 @@ Text GLabel 12500 3050 0    60   Input ~ 0
 GPS_SER_IN
 Text GLabel 12500 2850 0    60   Input ~ 0
 GPS_SER_OUT
-Text GLabel 4300 6050 2    60   Input ~ 0
+Text GLabel 5600 6450 2    60   Input ~ 0
 GPS_SER_IN
-Text GLabel 4300 6150 2    60   Input ~ 0
+Text GLabel 5600 6550 2    60   Input ~ 0
 GPS_SER_OUT
 $Comp
 L Device:C_Small C5
@@ -158,7 +158,7 @@ Text GLabel 12150 3650 0    60   Input ~ 0
 GND
 Text GLabel 14700 1850 2    60   Input ~ 0
 GND
-Text GLabel 2900 5050 1    60   Input ~ 0
+Text GLabel 4200 5450 1    60   Input ~ 0
 SPI_RESET
 $Comp
 L conn:Conn_01x01 CONN21
@@ -182,97 +182,97 @@ F 3 "" H 14750 4750 50  0001 C CNN
 	1    14750 4750
 	1    0    0    -1  
 $EndComp
-Text GLabel 8200 9800 0    60   Input ~ 0
+Text GLabel 8600 9300 0    60   Input ~ 0
 SPI_MISO
-Text GLabel 8200 10100 0    60   Input ~ 0
+Text GLabel 8600 9600 0    60   Input ~ 0
 SPI_SCK
-Text GLabel 8200 10350 0    60   Input ~ 0
+Text GLabel 8600 9850 0    60   Input ~ 0
 SPI_RESET
-Text GLabel 8950 10100 2    60   Input ~ 0
+Text GLabel 9350 9600 2    60   Input ~ 0
 SPI_MOSI
 $Comp
 L Device:R_Small R2
 U 1 1 5A708620
-P 6450 6050
-F 0 "R2" H 6480 6070 50  0000 L CNN
-F 1 "220" H 6480 6010 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6450 6050 50  0001 C CNN
-F 3 "" H 6450 6050 50  0001 C CNN
-	1    6450 6050
+P 9200 3500
+F 0 "R2" H 9230 3520 50  0000 L CNN
+F 1 "220" H 9230 3460 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 9200 3500 50  0001 C CNN
+F 3 "" H 9200 3500 50  0001 C CNN
+	1    9200 3500
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 5A70888C
-P 6450 5750
-F 0 "R1" H 6480 5770 50  0000 L CNN
-F 1 "220" H 6480 5710 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6450 5750 50  0001 C CNN
-F 3 "" H 6450 5750 50  0001 C CNN
-	1    6450 5750
+P 9200 3200
+F 0 "R1" H 9230 3220 50  0000 L CNN
+F 1 "220" H 9230 3160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 9200 3200 50  0001 C CNN
+F 3 "" H 9200 3200 50  0001 C CNN
+	1    9200 3200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED_Small D2
 U 1 1 5A70896B
-P 6800 6050
-F 0 "D2" H 6750 6175 50  0000 L CNN
-F 1 "LED_Small" H 6625 5950 50  0000 L CNN
-F 2 "LEDs:LED_0603_HandSoldering" V 6800 6050 50  0001 C CNN
-F 3 "" V 6800 6050 50  0001 C CNN
-	1    6800 6050
+P 9550 3500
+F 0 "D2" H 9500 3625 50  0000 L CNN
+F 1 "LED_Small" H 9375 3400 50  0000 L CNN
+F 2 "LEDs:LED_0603_HandSoldering" V 9550 3500 50  0001 C CNN
+F 3 "" V 9550 3500 50  0001 C CNN
+	1    9550 3500
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:LED_Small D1
 U 1 1 5A708B65
-P 6800 5750
-F 0 "D1" H 6750 5875 50  0000 L CNN
-F 1 "LED_Small" H 6625 5650 50  0000 L CNN
-F 2 "LEDs:LED_0603_HandSoldering" V 6800 5750 50  0001 C CNN
-F 3 "" V 6800 5750 50  0001 C CNN
-	1    6800 5750
+P 9550 3200
+F 0 "D1" H 9500 3325 50  0000 L CNN
+F 1 "LED_Small" H 9375 3100 50  0000 L CNN
+F 2 "LEDs:LED_0603_HandSoldering" V 9550 3200 50  0001 C CNN
+F 3 "" V 9550 3200 50  0001 C CNN
+	1    9550 3200
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 5A709A53
-P 7150 5750
-F 0 "#PWR05" H 7150 5500 50  0001 C CNN
-F 1 "GND" H 7150 5600 50  0000 C CNN
-F 2 "" H 7150 5750 50  0001 C CNN
-F 3 "" H 7150 5750 50  0001 C CNN
-	1    7150 5750
+P 9900 3200
+F 0 "#PWR05" H 9900 2950 50  0001 C CNN
+F 1 "GND" H 9900 3050 50  0000 C CNN
+F 2 "" H 9900 3200 50  0001 C CNN
+F 3 "" H 9900 3200 50  0001 C CNN
+	1    9900 3200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3200 7850 3    60   Input ~ 0
+Text GLabel 4500 8250 3    60   Input ~ 0
 SPI_MOSI
-Text GLabel 3300 7850 3    60   Input ~ 0
+Text GLabel 4600 8250 3    60   Input ~ 0
 SPI_MISO
-Text GLabel 4300 6750 2    60   Input ~ 0
+Text GLabel 5600 7150 2    60   Input ~ 0
 SPI_SCK
-Text GLabel 10950 2750 0    60   Input ~ 0
-VCC
+Text GLabel 10950 2750 1    60   Input ~ 0
+GPS_V_BCKP
 $Comp
 L CustomSchematicLibrary:SI5351A M4
 U 1 1 5AD28253
-P 14250 7450
-F 0 "M4" H 13850 8050 60  0000 C CNN
-F 1 "SI5351A" H 13950 6850 60  0000 C CNN
-F 2 "CustomFootprintLibrary:SI5351A" H 14650 7150 60  0001 C CNN
-F 3 "" H 14650 7150 60  0001 C CNN
-	1    14250 7450
+P 13950 7450
+F 0 "M4" H 13550 8050 60  0000 C CNN
+F 1 "SI5351A" H 13650 6850 60  0000 C CNN
+F 2 "CustomFootprintLibrary:SI5351A" H 14350 7150 60  0001 C CNN
+F 3 "" H 14350 7150 60  0001 C CNN
+	1    13950 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L CustomSchematicLibrary:SIP32431DR3-T1GE3 M2
 U 1 1 5AD2ABE3
-P 13100 8650
-F 0 "M2" H 12800 8900 60  0000 C CNN
-F 1 "SIP32431DR3-T1GE3" H 13100 8400 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 12900 8600 60  0001 C CNN
-F 3 "" H 12900 8600 60  0001 C CNN
-	1    13100 8650
+P 12800 8650
+F 0 "M2" H 12500 8900 60  0000 C CNN
+F 1 "SIP32431DR3-T1GE3" H 12800 8400 60  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 12600 8600 60  0001 C CNN
+F 3 "" H 12600 8600 60  0001 C CNN
+	1    12800 8650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -286,36 +286,25 @@ F 3 "" H 12050 4400 60  0001 C CNN
 	1    12250 4450
 	1    0    0    -1  
 $EndComp
-$Comp
-L CustomSchematicLibrary:CRYSTAL_ABM8G Y1
-U 1 1 5AD2B501
-P 12150 7250
-F 0 "Y1" H 12275 7500 60  0000 C CNN
-F 1 "CRYSTAL_ABM8G" H 12350 6950 60  0000 C CNN
-F 2 "CustomFootprintLibrary:ABM8G-25.000MHZ-B4Y-T" H 12350 6890 60  0001 C CNN
-F 3 "" H 12150 7250 60  0000 C CNN
-	1    12150 7250
-	0    1    1    0   
-$EndComp
-Text GLabel 8600 7650 0    60   Input ~ 0
+Text GLabel 9000 7150 0    60   Input ~ 0
 GPS_SER_OUT
-Text GLabel 8600 7950 0    60   Input ~ 0
+Text GLabel 9000 7450 0    60   Input ~ 0
 GPS_SER_IN
-Text GLabel 2700 7850 3    60   Input ~ 0
+Text GLabel 4000 8250 3    60   Input ~ 0
 LED_1
-Text GLabel 2800 7850 3    60   Input ~ 0
+Text GLabel 4100 8250 3    60   Input ~ 0
 LED_2
-Text GLabel 6200 5750 0    60   Input ~ 0
+Text GLabel 8950 3200 0    60   Input ~ 0
 LED_1
-Text GLabel 6200 6050 0    60   Input ~ 0
+Text GLabel 8950 3500 0    60   Input ~ 0
 LED_2
-Text GLabel 2800 5050 1    60   Input ~ 0
+Text GLabel 4100 5450 1    60   Input ~ 0
 SER_RXD
-Text GLabel 2700 5050 1    60   Input ~ 0
+Text GLabel 4000 5450 1    60   Input ~ 0
 SER_TXD
-Text GLabel 7050 7650 0    60   Input ~ 0
+Text GLabel 7450 7150 0    60   Input ~ 0
 SER_RXD
-Text GLabel 7050 7950 0    60   Input ~ 0
+Text GLabel 7450 7450 0    60   Input ~ 0
 SER_TXD
 Text GLabel 14550 4450 0    60   Input ~ 0
 GND
@@ -334,69 +323,67 @@ Text GLabel 11700 4350 0    60   Input ~ 0
 GPS_VCC
 Text GLabel 11700 4550 0    60   Input ~ 0
 GPS_ENABLE
-NoConn ~ 13600 8550
-Text GLabel 13800 8650 2    60   Input ~ 0
+NoConn ~ 13300 8550
+Text GLabel 13500 8650 2    60   Input ~ 0
 GND
-Text GLabel 13800 8750 2    60   Input ~ 0
+Text GLabel 13500 8750 2    60   Input ~ 0
 VCC
-Text GLabel 12550 8750 0    60   Input ~ 0
+Text GLabel 12250 8750 0    60   Input ~ 0
 WSPR_ENABLE
-Text GLabel 12550 8650 0    60   Input ~ 0
+Text GLabel 12250 8650 0    60   Input ~ 0
 GND
-Text GLabel 12550 8550 0    60   Input ~ 0
+Text GLabel 12250 8550 0    60   Input ~ 0
 WSPR_VCC
-Text GLabel 13300 6950 1    60   Input ~ 0
+Text GLabel 12900 6550 0    60   Input ~ 0
 WSPR_VCC
-Text GLabel 15400 7650 2    60   Input ~ 0
+Text GLabel 15100 7650 2    60   Input ~ 0
 WSPR_VCC
-Text GLabel 15400 7450 2    60   Input ~ 0
+Text GLabel 15100 7450 2    60   Input ~ 0
 GND
-NoConn ~ 14950 7850
-NoConn ~ 14950 7250
+NoConn ~ 14650 7850
+NoConn ~ 14650 7250
 $Comp
 L Device:C_Small C7
 U 1 1 5AD340A7
-P 13000 7050
-F 0 "C7" H 13010 7120 50  0000 L CNN
-F 1 ".1uF" H 13010 6970 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13000 7050 50  0001 C CNN
-F 3 "" H 13000 7050 50  0001 C CNN
-	1    13000 7050
+P 12900 6750
+F 0 "C7" H 12910 6820 50  0000 L CNN
+F 1 ".1uF" H 12910 6670 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 12900 6750 50  0001 C CNN
+F 3 "" H 12900 6750 50  0001 C CNN
+	1    12900 6750
 	1    0    0    -1  
 $EndComp
-Text GLabel 12800 7150 0    60   Input ~ 0
+Text GLabel 12900 7000 0    60   Input ~ 0
 GND
 $Comp
 L Device:C_Small C10
 U 1 1 5AD34AAF
-P 15150 7550
-F 0 "C10" H 15160 7620 50  0000 L CNN
-F 1 ".1uF" H 15160 7470 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 15150 7550 50  0001 C CNN
-F 3 "" H 15150 7550 50  0001 C CNN
-	1    15150 7550
+P 14850 7550
+F 0 "C10" H 14860 7620 50  0000 L CNN
+F 1 ".1uF" H 14860 7470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 14850 7550 50  0001 C CNN
+F 3 "" H 14850 7550 50  0001 C CNN
+	1    14850 7550
 	1    0    0    -1  
 $EndComp
-Text GLabel 14950 7050 2    60   Input ~ 0
+Text GLabel 14650 7050 2    60   Input ~ 0
 WSPR_RF_OUT
-Text GLabel 12150 7900 0    60   Input ~ 0
-GND
-Text GLabel 13550 7650 0    60   Input ~ 0
+Text GLabel 13250 7650 0    60   Input ~ 0
 SCL
-Text GLabel 13550 7850 0    60   Input ~ 0
+Text GLabel 13250 7850 0    60   Input ~ 0
 SDA
 $Comp
 L Device:R R4
 U 1 1 5AD37BE1
-P 9050 5950
-F 0 "R4" V 9130 5950 50  0000 C CNN
-F 1 "10k" V 9050 5950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8980 5950 50  0001 C CNN
-F 3 "" H 9050 5950 50  0001 C CNN
-	1    9050 5950
+P 9350 5050
+F 0 "R4" V 9430 5050 50  0000 C CNN
+F 1 "10k" V 9350 5050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9280 5050 50  0001 C CNN
+F 3 "" H 9350 5050 50  0001 C CNN
+	1    9350 5050
 	0    1    1    0   
 $EndComp
-Text GLabel 9200 5950 2    60   Input ~ 0
+Text GLabel 9500 5050 2    60   Input ~ 0
 VCC
 Wire Wire Line
 	1950 1950 2350 1950
@@ -455,322 +442,288 @@ Wire Wire Line
 	4050 3150 3650 3150
 Connection ~ 4050 3050
 Wire Wire Line
-	6200 5750 6350 5750
+	8950 3200 9100 3200
 Wire Wire Line
-	6550 5750 6700 5750
+	9300 3200 9450 3200
 Wire Wire Line
-	6550 6050 6700 6050
+	9300 3500 9450 3500
 Wire Wire Line
-	6900 5750 7000 5750
+	9650 3200 9750 3200
 Wire Wire Line
-	7000 6050 6900 6050
-Connection ~ 7000 5750
+	9750 3500 9650 3500
+Connection ~ 9750 3200
 Wire Wire Line
 	2650 2350 2050 2350
 Wire Wire Line
-	7000 6050 7000 5750
+	9750 3500 9750 3200
 Wire Wire Line
-	6350 6050 6200 6050
+	9100 3500 8950 3500
 Wire Wire Line
-	13550 7050 13550 6950
+	12900 7000 12900 6850
 Wire Wire Line
-	13550 6950 13000 6950
+	14650 7450 14850 7450
 Wire Wire Line
-	12800 7150 13000 7150
-Wire Wire Line
-	14950 7450 15150 7450
-Wire Wire Line
-	14950 7650 15150 7650
-Connection ~ 15150 7450
-Connection ~ 15150 7650
-Wire Wire Line
-	12150 7250 13550 7250
-Wire Wire Line
-	12150 7650 13550 7450
-Wire Wire Line
-	12350 7800 12350 7450
-Wire Wire Line
-	11950 7800 12150 7800
-Wire Wire Line
-	11950 7800 11950 7450
-Wire Wire Line
-	12150 7800 12150 7900
-Connection ~ 12150 7800
-Text GLabel 8900 5950 0    60   Input ~ 0
+	14650 7650 14850 7650
+Connection ~ 14850 7450
+Connection ~ 14850 7650
+Text GLabel 9200 5050 0    60   Input ~ 0
 SDA
-$Comp
-L Device:R R6
-U 1 1 5AD390EE
-P 9100 6800
-F 0 "R6" V 9180 6800 50  0000 C CNN
-F 1 "10k" V 9100 6800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9030 6800 50  0001 C CNN
-F 3 "" H 9100 6800 50  0001 C CNN
-	1    9100 6800
-	0    1    1    0   
-$EndComp
-Text GLabel 9250 6800 2    60   Input ~ 0
-VCC
-Text GLabel 8950 6800 0    60   Input ~ 0
-SPI_RESET
-Text GLabel 3000 5050 1    60   Input ~ 0
+Text GLabel 4300 5450 1    60   Input ~ 0
 SCL
-Text GLabel 3100 5050 1    60   Input ~ 0
+Text GLabel 4400 5450 1    60   Input ~ 0
 SDA
 $Comp
 L conn:Conn_01x01 CONN23
 U 1 1 5AD3A314
-P 15250 8550
-F 0 "CONN23" H 15250 8650 50  0000 C CNN
-F 1 "WSPR_RF_GND" H 15250 8450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 15250 8550 50  0001 C CNN
-F 3 "" H 15250 8550 50  0001 C CNN
-	1    15250 8550
+P 14950 8550
+F 0 "CONN23" H 14950 8650 50  0000 C CNN
+F 1 "WSPR_RF_GND" H 14950 8450 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 14950 8550 50  0001 C CNN
+F 3 "" H 14950 8550 50  0001 C CNN
+	1    14950 8550
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN24
 U 1 1 5AD3A31A
-P 15250 8850
-F 0 "CONN24" H 15250 8950 50  0000 C CNN
-F 1 "WSPR_RF_OUT" H 15250 8750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 15250 8850 50  0001 C CNN
-F 3 "" H 15250 8850 50  0001 C CNN
-	1    15250 8850
+P 14950 8850
+F 0 "CONN24" H 14950 8950 50  0000 C CNN
+F 1 "WSPR_RF_OUT" H 14950 8750 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Small" H 14950 8850 50  0001 C CNN
+F 3 "" H 14950 8850 50  0001 C CNN
+	1    14950 8850
 	1    0    0    -1  
 $EndComp
-Text GLabel 15050 8550 0    60   Input ~ 0
+Text GLabel 14750 8550 0    60   Input ~ 0
 GND
-Text GLabel 15050 8850 0    60   Input ~ 0
+Text GLabel 14750 8850 0    60   Input ~ 0
 WSPR_RF_OUT
 $Comp
 L conn:Conn_01x01 CONN2
 U 1 1 5AD416B9
-P 6800 3950
-F 0 "CONN2" H 6800 4050 50  0000 C CNN
-F 1 "BATT_POS" H 6800 3850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 6800 3950 50  0001 C CNN
-F 3 "" H 6800 3950 50  0001 C CNN
-	1    6800 3950
+P 7850 1300
+F 0 "CONN2" H 7850 1400 50  0000 C CNN
+F 1 "BATT_POS" H 7850 1200 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 7850 1300 50  0001 C CNN
+F 3 "" H 7850 1300 50  0001 C CNN
+	1    7850 1300
 	-1   0    0    1   
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN1
 U 1 1 5AD41BB5
-P 6000 3950
-F 0 "CONN1" H 6000 4050 50  0000 C CNN
-F 1 "BATT_NEG" H 6000 3850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 6000 3950 50  0001 C CNN
-F 3 "" H 6000 3950 50  0001 C CNN
-	1    6000 3950
+P 7050 1300
+F 0 "CONN1" H 7050 1400 50  0000 C CNN
+F 1 "BATT_NEG" H 7050 1200 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Square-SMD-Pad_Big" H 7050 1300 50  0001 C CNN
+F 3 "" H 7050 1300 50  0001 C CNN
+	1    7050 1300
 	-1   0    0    1   
 $EndComp
-Text GLabel 1500 6050 0    60   Input ~ 0
-RESET
 $Comp
 L Device:R R3
 U 1 1 5AD44AC4
-P 9100 5450
-F 0 "R3" V 9180 5450 50  0000 C CNN
-F 1 "10k" V 9100 5450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9030 5450 50  0001 C CNN
-F 3 "" H 9100 5450 50  0001 C CNN
-	1    9100 5450
+P 9400 4550
+F 0 "R3" V 9480 4550 50  0000 C CNN
+F 1 "10k" V 9400 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9330 4550 50  0001 C CNN
+F 3 "" H 9400 4550 50  0001 C CNN
+	1    9400 4550
 	0    1    1    0   
 $EndComp
-Text GLabel 9250 5450 2    60   Input ~ 0
+Text GLabel 9550 4550 2    60   Input ~ 0
 VCC
-Text GLabel 8950 5450 0    60   Input ~ 0
-RESET
-Text GLabel 2900 7850 3    60   Input ~ 0
+Text GLabel 9250 4550 0    60   Input ~ 0
+SPI_RESET
+Text GLabel 4200 8250 3    60   Input ~ 0
 GPS_ENABLE
-Text GLabel 3000 7850 3    60   Input ~ 0
+Text GLabel 4300 8250 3    60   Input ~ 0
 WSPR_ENABLE
 $Comp
 L conn:Conn_01x01 CONN17
 U 1 1 5AD479CF
-P 8800 7650
-F 0 "CONN17" H 8800 7750 50  0000 C CNN
-F 1 "GPS_SER_OUT" H 8800 7550 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 8800 7650 50  0001 C CNN
-F 3 "" H 8800 7650 50  0001 C CNN
-	1    8800 7650
+P 9200 7150
+F 0 "CONN17" H 9200 7250 50  0000 C CNN
+F 1 "GPS_SER_OUT" H 9200 7050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 9200 7150 50  0001 C CNN
+F 3 "" H 9200 7150 50  0001 C CNN
+	1    9200 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN18
 U 1 1 5AD47A54
-P 8800 7950
-F 0 "CONN18" H 8800 8050 50  0000 C CNN
-F 1 "GPS_SER_IN" H 8800 7850 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 8800 7950 50  0001 C CNN
-F 3 "" H 8800 7950 50  0001 C CNN
-	1    8800 7950
+P 9200 7450
+F 0 "CONN18" H 9200 7550 50  0000 C CNN
+F 1 "GPS_SER_IN" H 9200 7350 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 9200 7450 50  0001 C CNN
+F 3 "" H 9200 7450 50  0001 C CNN
+	1    9200 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN5
 U 1 1 5AD4A015
-P 7250 7650
-F 0 "CONN5" H 7250 7750 50  0000 C CNN
-F 1 "MCU_SER_RXD" H 7250 7550 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7250 7650 50  0001 C CNN
-F 3 "" H 7250 7650 50  0001 C CNN
-	1    7250 7650
+P 7650 7150
+F 0 "CONN5" H 7650 7250 50  0000 C CNN
+F 1 "MCU_SER_RXD" H 7650 7050 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7650 7150 50  0001 C CNN
+F 3 "" H 7650 7150 50  0001 C CNN
+	1    7650 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN6
 U 1 1 5AD4A01B
-P 7250 7950
-F 0 "CONN6" H 7250 8050 50  0000 C CNN
-F 1 "MCU_SER_TXD" H 7250 7850 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7250 7950 50  0001 C CNN
-F 3 "" H 7250 7950 50  0001 C CNN
-	1    7250 7950
+P 7650 7450
+F 0 "CONN6" H 7650 7550 50  0000 C CNN
+F 1 "MCU_SER_TXD" H 7650 7350 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7650 7450 50  0001 C CNN
+F 3 "" H 7650 7450 50  0001 C CNN
+	1    7650 7450
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN9
 U 1 1 5AD561A2
-P 8400 8400
-F 0 "CONN9" H 8400 8500 50  0000 C CNN
-F 1 "SDA_TAP" H 8400 8300 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 8400 8400 50  0001 C CNN
-F 3 "" H 8400 8400 50  0001 C CNN
-	1    8400 8400
+P 8800 7900
+F 0 "CONN9" H 8800 8000 50  0000 C CNN
+F 1 "SDA_TAP" H 8800 7800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 8800 7900 50  0001 C CNN
+F 3 "" H 8800 7900 50  0001 C CNN
+	1    8800 7900
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN10
 U 1 1 5AD56ACA
-P 8400 8700
-F 0 "CONN10" H 8400 8800 50  0000 C CNN
-F 1 "SCL_TAP" H 8400 8600 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 8400 8700 50  0001 C CNN
-F 3 "" H 8400 8700 50  0001 C CNN
-	1    8400 8700
+P 8800 8200
+F 0 "CONN10" H 8800 8300 50  0000 C CNN
+F 1 "SCL_TAP" H 8800 8100 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 8800 8200 50  0001 C CNN
+F 3 "" H 8800 8200 50  0001 C CNN
+	1    8800 8200
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN11
 U 1 1 5AD578AB
-P 8400 9800
-F 0 "CONN11" H 8400 9900 50  0000 C CNN
-F 1 "SPI_MISO" H 8400 9700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8400 9800 50  0001 C CNN
-F 3 "" H 8400 9800 50  0001 C CNN
-	1    8400 9800
+P 8800 9300
+F 0 "CONN11" H 8800 9400 50  0000 C CNN
+F 1 "SPI_MISO" H 8800 9200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8800 9300 50  0001 C CNN
+F 3 "" H 8800 9300 50  0001 C CNN
+	1    8800 9300
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN12
 U 1 1 5AD578B1
-P 8400 10100
-F 0 "CONN12" H 8400 10200 50  0000 C CNN
-F 1 "SPI_SCK" H 8400 10000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8400 10100 50  0001 C CNN
-F 3 "" H 8400 10100 50  0001 C CNN
-	1    8400 10100
+P 8800 9600
+F 0 "CONN12" H 8800 9700 50  0000 C CNN
+F 1 "SPI_SCK" H 8800 9500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8800 9600 50  0001 C CNN
+F 3 "" H 8800 9600 50  0001 C CNN
+	1    8800 9600
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN13
 U 1 1 5AD5797A
-P 8400 10350
-F 0 "CONN13" H 8400 10450 50  0000 C CNN
-F 1 "SPI_RESET" H 8400 10250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8400 10350 50  0001 C CNN
-F 3 "" H 8400 10350 50  0001 C CNN
-	1    8400 10350
+P 8800 9850
+F 0 "CONN13" H 8800 9950 50  0000 C CNN
+F 1 "SPI_RESET" H 8800 9750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8800 9850 50  0001 C CNN
+F 3 "" H 8800 9850 50  0001 C CNN
+	1    8800 9850
 	1    0    0    -1  
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN16
 U 1 1 5AD57AE6
-P 8750 10350
-F 0 "CONN16" H 8750 10450 50  0000 C CNN
-F 1 "GND" H 8750 10250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8750 10350 50  0001 C CNN
-F 3 "" H 8750 10350 50  0001 C CNN
-	1    8750 10350
+P 9150 9850
+F 0 "CONN16" H 9150 9950 50  0000 C CNN
+F 1 "GND" H 9150 9750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 9150 9850 50  0001 C CNN
+F 3 "" H 9150 9850 50  0001 C CNN
+	1    9150 9850
 	-1   0    0    1   
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN15
 U 1 1 5AD57AEC
-P 8750 10100
-F 0 "CONN15" H 8750 10200 50  0000 C CNN
-F 1 "SPI_MOSI" H 8750 10000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8750 10100 50  0001 C CNN
-F 3 "" H 8750 10100 50  0001 C CNN
-	1    8750 10100
+P 9150 9600
+F 0 "CONN15" H 9150 9700 50  0000 C CNN
+F 1 "SPI_MOSI" H 9150 9500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 9150 9600 50  0001 C CNN
+F 3 "" H 9150 9600 50  0001 C CNN
+	1    9150 9600
 	-1   0    0    1   
 $EndComp
 $Comp
 L conn:Conn_01x01 CONN14
 U 1 1 5AD57AF2
-P 8750 9800
-F 0 "CONN14" H 8750 9900 50  0000 C CNN
-F 1 "VBATT" H 8750 9700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 8750 9800 50  0001 C CNN
-F 3 "" H 8750 9800 50  0001 C CNN
-	1    8750 9800
+P 9150 9300
+F 0 "CONN14" H 9150 9400 50  0000 C CNN
+F 1 "VBATT" H 9150 9200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 9150 9300 50  0001 C CNN
+F 3 "" H 9150 9300 50  0001 C CNN
+	1    9150 9300
 	-1   0    0    1   
 $EndComp
-Text GLabel 3100 7850 3    60   Input ~ 0
+Text GLabel 4400 8250 3    60   Input ~ 0
 SIG_A
-Text GLabel 3300 5050 1    60   Input ~ 0
+Text GLabel 3900 5450 1    60   Input ~ 0
 SIG_B
 $Comp
 L conn:Conn_01x01 CONN20
 U 1 1 5AD59627
-P 9250 9300
-F 0 "CONN20" H 9250 9400 50  0000 C CNN
-F 1 "SIG_B" H 9250 9200 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 9250 9300 50  0001 C CNN
-F 3 "" H 9250 9300 50  0001 C CNN
-	1    9250 9300
+P 9650 8800
+F 0 "CONN20" H 9650 8900 50  0000 C CNN
+F 1 "SIG_B" H 9650 8700 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 9650 8800 50  0001 C CNN
+F 3 "" H 9650 8800 50  0001 C CNN
+	1    9650 8800
 	1    0    0    -1  
 $EndComp
-Text GLabel 9050 9300 0    60   Input ~ 0
+Text GLabel 9450 8800 0    60   Input ~ 0
 SIG_B
 $Comp
 L conn:Conn_01x01 CONN19
 U 1 1 5AD59912
-P 9250 9000
-F 0 "CONN19" H 9250 9100 50  0000 C CNN
-F 1 "SIG_A" H 9250 8900 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 9250 9000 50  0001 C CNN
-F 3 "" H 9250 9000 50  0001 C CNN
-	1    9250 9000
+P 9650 8500
+F 0 "CONN19" H 9650 8600 50  0000 C CNN
+F 1 "SIG_A" H 9650 8400 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 9650 8500 50  0001 C CNN
+F 3 "" H 9650 8500 50  0001 C CNN
+	1    9650 8500
 	1    0    0    -1  
 $EndComp
-Text GLabel 9050 9000 0    60   Input ~ 0
+Text GLabel 9450 8500 0    60   Input ~ 0
 SIG_A
-Text GLabel 8200 8400 0    60   Input ~ 0
+Text GLabel 8600 7900 0    60   Input ~ 0
 SDA
-Text GLabel 8200 8700 0    60   Input ~ 0
+Text GLabel 8600 8200 0    60   Input ~ 0
 SCL
-Text GLabel 1500 6150 0    60   Input ~ 0
+Text GLabel 2800 6550 0    60   Input ~ 0
 REG_PS_CTL
 Text GLabel 2050 2350 0    60   Input ~ 0
 REG_PS_CTL
 $Comp
 L conn:Conn_01x01 CONN7
 U 1 1 5AD5DC66
-P 6950 9550
-F 0 "CONN7" H 6950 9650 50  0000 C CNN
-F 1 "BATT_TAP" H 6950 9450 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 9550 50  0001 C CNN
-F 3 "" H 6950 9550 50  0001 C CNN
-	1    6950 9550
+P 7350 9050
+F 0 "CONN7" H 7350 9150 50  0000 C CNN
+F 1 "BATT_TAP" H 7350 8950 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7350 9050 50  0001 C CNN
+F 3 "" H 7350 9050 50  0001 C CNN
+	1    7350 9050
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 9550 0    60   Input ~ 0
+Text GLabel 7150 9050 0    60   Input ~ 0
 VBATT
-NoConn ~ 8950 9800
-NoConn ~ 8950 10350
+NoConn ~ 9350 9300
+NoConn ~ 9350 9850
 Wire Wire Line
 	2150 3150 2150 3200
 Wire Wire Line
@@ -798,13 +751,11 @@ Wire Wire Line
 Wire Wire Line
 	4050 3050 4050 3150
 Wire Wire Line
-	7000 5750 7150 5750
+	9750 3200 9900 3200
 Wire Wire Line
-	15150 7450 15400 7450
+	14850 7450 15100 7450
 Wire Wire Line
-	15150 7650 15400 7650
-Wire Wire Line
-	12150 7800 12350 7800
+	14850 7650 15100 7650
 $Comp
 L conn:Conn_01x02 J1
 U 1 1 5C6E1348
@@ -822,9 +773,9 @@ Wire Wire Line
 	12400 3150 12400 3250
 Wire Wire Line
 	12400 3250 12500 3250
-Text GLabel 3200 5050 1    60   Input ~ 0
+Text GLabel 4500 5450 1    60   Input ~ 0
 VBATT_SENSE
-Text Notes 7700 7450 0    50   ~ 0
+Text Notes 8100 6950 0    50   ~ 0
 Break-off Parts
 $Comp
 L Device:C_Small C6
@@ -850,90 +801,84 @@ Connection ~ 12900 4600
 $Comp
 L Device:C_Small C8
 U 1 1 5C6FF453
-P 13700 8700
-F 0 "C8" H 13710 8770 50  0000 L CNN
-F 1 "22uF" H 13710 8620 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13700 8700 50  0001 C CNN
-F 3 "" H 13700 8700 50  0001 C CNN
-	1    13700 8700
+P 13400 8700
+F 0 "C8" H 13410 8770 50  0000 L CNN
+F 1 "22uF" H 13410 8620 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 13400 8700 50  0001 C CNN
+F 3 "" H 13400 8700 50  0001 C CNN
+	1    13400 8700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13800 8650 13700 8600
+	13500 8650 13400 8600
 Wire Wire Line
-	13700 8600 13600 8650
-Connection ~ 13700 8600
+	13400 8600 13300 8650
+Connection ~ 13400 8600
 Wire Wire Line
-	13600 8750 13700 8800
+	13300 8750 13400 8800
 Wire Wire Line
-	13800 8750 13700 8800
-Connection ~ 13700 8800
+	13500 8750 13400 8800
+Connection ~ 13400 8800
 $Comp
 L conn:Conn_01x01 CONN3
 U 1 1 5C713AD8
-P 6950 8700
-F 0 "CONN3" H 6950 8800 50  0000 C CNN
-F 1 "BATT_INPUT" H 6950 8600 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 8700 50  0001 C CNN
-F 3 "" H 6950 8700 50  0001 C CNN
-	1    6950 8700
+P 7350 8200
+F 0 "CONN3" H 7350 8300 50  0000 C CNN
+F 1 "BATT_INPUT" H 7350 8100 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7350 8200 50  0001 C CNN
+F 3 "" H 7350 8200 50  0001 C CNN
+	1    7350 8200
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 8700 0    60   Input ~ 0
+Text GLabel 7150 8200 0    60   Input ~ 0
 VBATT
 $Comp
 L conn:Conn_01x01 CONN4
 U 1 1 5C713ADF
-P 6950 9000
-F 0 "CONN4" H 6950 9100 50  0000 C CNN
-F 1 "GND_INPUT" H 6950 8900 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 9000 50  0001 C CNN
-F 3 "" H 6950 9000 50  0001 C CNN
-	1    6950 9000
+P 7350 8500
+F 0 "CONN4" H 7350 8600 50  0000 C CNN
+F 1 "GND_INPUT" H 7350 8400 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7350 8500 50  0001 C CNN
+F 3 "" H 7350 8500 50  0001 C CNN
+	1    7350 8500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 9000 0    60   Input ~ 0
+Text GLabel 7150 8500 0    60   Input ~ 0
 GND
 Wire Notes Line
-	6350 10600 9600 10600
+	6750 10100 10000 10100
 Wire Notes Line
-	9600 7300 6350 7300
+	10000 6800 6750 6800
 Wire Notes Line
-	8150 5100 8150 7100
+	8450 4200 8450 6200
 Wire Notes Line
-	8150 7100 10000 7100
+	8450 6200 10300 6200
 Wire Notes Line
-	10000 7100 10000 5100
+	10300 6200 10300 4200
 Wire Notes Line
-	10000 5100 8150 5100
-Text Notes 8900 5300 0    50   ~ 0
+	10300 4200 8450 4200
+Text Notes 9200 4400 0    50   ~ 0
 Pullups
-Text Notes 6300 5300 0    50   ~ 0
+Text Notes 9050 2750 0    50   ~ 0
 Status LEDs
 Wire Notes Line
-	5700 5100 5700 6500
+	8450 2550 8450 3950
 Wire Notes Line
-	5700 6500 7500 6500
+	8450 3950 10250 3950
 Wire Notes Line
-	7500 6500 7500 5100
+	10250 3950 10250 2550
 Wire Notes Line
-	7500 5100 5700 5100
-Text Notes 14900 8350 0    50   ~ 0
+	10250 2550 8450 2550
+Text Notes 14600 8350 0    50   ~ 0
 Antenna
-Text Notes 13950 6450 0    50   ~ 0
+Text Notes 13650 6450 0    50   ~ 0
 Transmitter
 Wire Notes Line
-	11600 6250 11600 9150
+	11000 6250 11000 9150
 Wire Notes Line
-	11600 9150 16000 9150
+	6750 6800 6750 10100
 Wire Notes Line
-	16000 9150 16000 6250
-Wire Notes Line
-	16000 6250 11600 6250
-Wire Notes Line
-	6350 7300 6350 10600
-Wire Notes Line
-	9600 7300 9600 10600
+	10000 6800 10000 10100
 Text Notes 14400 4250 0    50   ~ 0
 Antenna
 Text Notes 13450 1100 0    50   ~ 0
@@ -958,7 +903,7 @@ Wire Notes Line
 	5100 750  1150 750 
 Wire Wire Line
 	4350 2750 4350 3150
-Text GLabel 6300 4100 2    50   Input ~ 0
+Text GLabel 7350 1450 2    50   Input ~ 0
 GND
 $Comp
 L power:PWR_FLAG #FLG02
@@ -977,126 +922,115 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5C77C405
-P 6300 4200
-F 0 "#FLG01" H 6300 4275 50  0001 C CNN
-F 1 "PWR_FLAG" V 6300 4328 50  0000 L CNN
-F 2 "" H 6300 4200 50  0001 C CNN
-F 3 "~" H 6300 4200 50  0001 C CNN
-	1    6300 4200
+P 7350 1550
+F 0 "#FLG01" H 7350 1625 50  0001 C CNN
+F 1 "PWR_FLAG" V 7350 1678 50  0000 L CNN
+F 2 "" H 7350 1550 50  0001 C CNN
+F 3 "~" H 7350 1550 50  0001 C CNN
+	1    7350 1550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR04
 U 1 1 5C77CF49
-P 6300 4300
-F 0 "#PWR04" H 6300 4050 50  0001 C CNN
-F 1 "GND" H 6300 4150 50  0000 C CNN
-F 2 "" H 6300 4300 50  0001 C CNN
-F 3 "" H 6300 4300 50  0001 C CNN
-	1    6300 4300
+P 7350 1650
+F 0 "#PWR04" H 7350 1400 50  0001 C CNN
+F 1 "GND" H 7350 1500 50  0000 C CNN
+F 2 "" H 7350 1650 50  0001 C CNN
+F 3 "" H 7350 1650 50  0001 C CNN
+	1    7350 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 4300 6300 4200
-Connection ~ 6300 4200
-Text Notes 6350 3650 0    50   ~ 0
+	7350 1650 7350 1550
+Connection ~ 7350 1550
+Text Notes 7400 1000 0    50   ~ 0
 Power
 Wire Wire Line
-	6200 3950 6300 3950
+	7250 1300 7350 1300
 Wire Wire Line
-	6300 3950 6300 4200
-Text GLabel 7000 3950 2    50   Input ~ 0
+	7350 1300 7350 1550
+Text GLabel 8050 1300 2    50   Input ~ 0
 VBATT
-$Comp
-L CustomSchematicLibrary:ATMEGA328P-AU U1
-U 1 1 5C7AE13A
-P 2950 6400
-F 0 "U1" H 1700 7700 50  0000 C CNN
-F 1 "ATMEGA328P-AU" H 3850 5000 50  0000 C CNN
-F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 2950 6400 50  0001 C CIN
-F 3 "http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf" H 2950 6400 50  0001 C CNN
-	1    2950 6400
-	1    0    0    -1  
-$EndComp
-Text Notes 10750 2650 0    50   ~ 0
+Text Notes 11150 2600 0    50   ~ 0
 Cut Trace for\nmisbehaving modules
 $Comp
 L conn:Conn_01x01 CONN8
 U 1 1 5C70A805
-P 6950 9850
-F 0 "CONN8" H 6950 9950 50  0000 C CNN
-F 1 "VCC_TAP" H 6950 9750 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 9850 50  0001 C CNN
-F 3 "" H 6950 9850 50  0001 C CNN
-	1    6950 9850
+P 7350 9350
+F 0 "CONN8" H 7350 9450 50  0000 C CNN
+F 1 "VCC_TAP" H 7350 9250 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7350 9350 50  0001 C CNN
+F 3 "" H 7350 9350 50  0001 C CNN
+	1    7350 9350
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 9850 0    60   Input ~ 0
+Text GLabel 7150 9350 0    60   Input ~ 0
 VCC
 $Comp
 L conn:Conn_01x01 CONN25
 U 1 1 5C70A80C
-P 6950 10150
-F 0 "CONN25" H 6950 10250 50  0000 C CNN
-F 1 "GND_TAP" H 6950 10050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 6950 10150 50  0001 C CNN
-F 3 "" H 6950 10150 50  0001 C CNN
-	1    6950 10150
+P 7350 9650
+F 0 "CONN25" H 7350 9750 50  0000 C CNN
+F 1 "GND_TAP" H 7350 9550 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x01_Pitch2.54mm" H 7350 9650 50  0001 C CNN
+F 3 "" H 7350 9650 50  0001 C CNN
+	1    7350 9650
 	1    0    0    -1  
 $EndComp
-Text GLabel 6750 10150 0    60   Input ~ 0
+Text GLabel 7150 9650 0    60   Input ~ 0
 GND
 $Comp
 L Device:R_Small R7
 U 1 1 5C74C6E2
-P 7500 4000
-F 0 "R7" H 7530 4020 50  0000 L CNN
-F 1 "1M" H 7530 3960 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7500 4000 50  0001 C CNN
-F 3 "" H 7500 4000 50  0001 C CNN
-	1    7500 4000
+P 8550 1350
+F 0 "R7" H 8580 1370 50  0000 L CNN
+F 1 "1M" H 8580 1310 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8550 1350 50  0001 C CNN
+F 3 "" H 8550 1350 50  0001 C CNN
+	1    8550 1350
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R8
 U 1 1 5C74CD20
-P 7500 4400
-F 0 "R8" H 7530 4420 50  0000 L CNN
-F 1 "1M" H 7530 4360 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 7500 4400 50  0001 C CNN
-F 3 "" H 7500 4400 50  0001 C CNN
-	1    7500 4400
+P 8550 1750
+F 0 "R8" H 8580 1770 50  0000 L CNN
+F 1 "1M" H 8580 1710 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 8550 1750 50  0001 C CNN
+F 3 "" H 8550 1750 50  0001 C CNN
+	1    8550 1750
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 5C74CDAA
-P 7500 4650
-F 0 "#PWR06" H 7500 4400 50  0001 C CNN
-F 1 "GND" H 7500 4500 50  0000 C CNN
-F 2 "" H 7500 4650 50  0001 C CNN
-F 3 "" H 7500 4650 50  0001 C CNN
-	1    7500 4650
+P 8550 2000
+F 0 "#PWR06" H 8550 1750 50  0001 C CNN
+F 1 "GND" H 8550 1850 50  0000 C CNN
+F 2 "" H 8550 2000 50  0001 C CNN
+F 3 "" H 8550 2000 50  0001 C CNN
+	1    8550 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 7500 3700 2    50   Input ~ 0
+Text GLabel 8550 1050 2    50   Input ~ 0
 VBATT
 Wire Wire Line
-	7500 3700 7500 3900
+	8550 1050 8550 1250
 Wire Wire Line
-	7500 4650 7500 4500
+	8550 2000 8550 1850
 Wire Wire Line
-	7500 4100 7500 4300
-Text GLabel 7500 4200 2    50   Input ~ 0
+	8550 1450 8550 1650
+Text GLabel 8550 1550 2    50   Input ~ 0
 VBATT_SENSE
 Wire Notes Line
-	5700 3500 5700 4900
+	6750 850  6750 2250
 Wire Notes Line
-	5700 4900 8150 4900
+	6750 2250 9200 2250
 Wire Notes Line
-	8150 4900 8150 3500
+	9200 2250 9200 850 
 Wire Notes Line
-	8150 3500 5700 3500
+	9200 850  6750 850 
 Text GLabel 14700 2450 2    60   Input ~ 0
 GND
 Wire Wire Line
@@ -1108,16 +1042,14 @@ Wire Wire Line
 $Comp
 L Device:C_Small C11
 U 1 1 5C9EBDEA
-P 1500 8250
-F 0 "C11" H 1510 8320 50  0000 L CNN
-F 1 ".1uF" H 1510 8170 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1500 8250 50  0001 C CNN
-F 3 "" H 1500 8250 50  0001 C CNN
-	1    1500 8250
+P 2800 8650
+F 0 "C11" H 2810 8720 50  0000 L CNN
+F 1 ".1uF" H 2810 8570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2800 8650 50  0001 C CNN
+F 3 "" H 2800 8650 50  0001 C CNN
+	1    2800 8650
 	1    0    0    -1  
 $EndComp
-Text Notes 8300 6400 0    50   ~ 0
-SCL omitted purposefully.\nThe clockgen tries to power itself through\nthis when shut off.\nTested working without it.
 Wire Wire Line
 	14700 2050 14700 2150
 $Comp
@@ -1134,68 +1066,262 @@ $EndComp
 Connection ~ 14700 2150
 Wire Wire Line
 	14700 2150 14700 2250
-NoConn ~ 2600 7850
-NoConn ~ 2600 5050
-NoConn ~ 4300 6550
-NoConn ~ 4300 6250
-NoConn ~ 1500 6650
-NoConn ~ 1500 6750
-Text GLabel 4300 6450 2    60   Input ~ 0
+NoConn ~ 5600 6950
+NoConn ~ 5600 6650
+NoConn ~ 2800 7150
+Text GLabel 5600 6850 2    60   Input ~ 0
 VCC
-Text GLabel 1500 6350 0    60   Input ~ 0
+Text GLabel 2800 6750 0    60   Input ~ 0
 VCC
 $Comp
 L Device:C_Small C9
 U 1 1 5C9EC455
-P 1300 8250
-F 0 "C9" H 1310 8320 50  0000 L CNN
-F 1 ".1uF" H 1310 8170 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1300 8250 50  0001 C CNN
-F 3 "" H 1300 8250 50  0001 C CNN
-	1    1300 8250
+P 2600 8650
+F 0 "C9" H 2610 8720 50  0000 L CNN
+F 1 ".1uF" H 2610 8570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2600 8650 50  0001 C CNN
+F 3 "" H 2600 8650 50  0001 C CNN
+	1    2600 8650
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 6550 0    60   Input ~ 0
+Text GLabel 2800 6950 0    60   Input ~ 0
 VCC
-Text GLabel 1500 6450 0    60   Input ~ 0
+Text GLabel 2800 6850 0    60   Input ~ 0
 GND
-Text GLabel 1500 6250 0    60   Input ~ 0
+Text GLabel 2800 6650 0    60   Input ~ 0
 GND
-Text GLabel 4300 6650 2    60   Input ~ 0
+Text GLabel 5600 7050 2    60   Input ~ 0
 VCC
-Text GLabel 4300 6350 2    60   Input ~ 0
+Text GLabel 5600 6750 2    60   Input ~ 0
 GND
 Wire Wire Line
-	1300 8150 1500 8150
-Connection ~ 1500 8150
+	2600 8550 2800 8550
+Connection ~ 2800 8550
 Wire Wire Line
-	1500 8150 1700 8150
+	2800 8550 3000 8550
 Wire Wire Line
-	1700 8350 1500 8350
-Connection ~ 1500 8350
+	3000 8750 2800 8750
+Connection ~ 2800 8750
 Wire Wire Line
-	1500 8350 1300 8350
+	2800 8750 2600 8750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 5CC26B03
-P 1500 8350
-F 0 "#PWR?" H 1500 8100 50  0001 C CNN
-F 1 "GND" H 1500 8200 50  0000 C CNN
-F 2 "" H 1500 8350 50  0001 C CNN
-F 3 "" H 1500 8350 50  0001 C CNN
-	1    1500 8350
+P 2800 8750
+F 0 "#PWR01" H 2800 8500 50  0001 C CNN
+F 1 "GND" H 2800 8600 50  0000 C CNN
+F 2 "" H 2800 8750 50  0001 C CNN
+F 3 "" H 2800 8750 50  0001 C CNN
+	1    2800 8750
 	1    0    0    -1  
 $EndComp
-Text GLabel 1500 8150 1    60   Input ~ 0
+Text GLabel 2800 8550 1    60   Input ~ 0
 VCC
-Wire Notes Line
-	5250 4050 5250 8900
-Wire Notes Line
-	5250 8900 600  8900
-Wire Notes Line
-	600  8900 600  4050
-Wire Notes Line
-	600  4050 5250 4050
-Text Notes 2750 4150 0    50   ~ 0
+Text Notes 3350 4750 0    50   ~ 0
 AVR
+Text GLabel 11550 6750 0    60   Input ~ 0
+WSPR_VCC
+Text GLabel 11550 7750 0    60   Input ~ 0
+GND
+$Comp
+L Device:R R10
+U 1 1 5CCB763E
+P 12250 7250
+F 0 "R10" V 12330 7250 50  0000 C CNN
+F 1 "68" V 12250 7250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12180 7250 50  0001 C CNN
+F 3 "" H 12250 7250 50  0001 C CNN
+	1    12250 7250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5CCB7ACD
+P 12000 7400
+F 0 "R9" V 12080 7400 50  0000 C CNN
+F 1 "100" V 12000 7400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 11930 7400 50  0001 C CNN
+F 3 "" H 12000 7400 50  0001 C CNN
+	1    12000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5CCB7C69
+P 12500 7400
+F 0 "R11" V 12580 7400 50  0000 C CNN
+F 1 "100" V 12500 7400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 12430 7400 50  0001 C CNN
+F 3 "" H 12500 7400 50  0001 C CNN
+	1    12500 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 6650 12900 6500
+Wire Wire Line
+	12900 6500 13250 6500
+Wire Wire Line
+	13250 6500 13250 7050
+Wire Wire Line
+	11900 7250 12000 7250
+Wire Wire Line
+	12100 7250 12000 7250
+Connection ~ 12000 7250
+Wire Wire Line
+	12400 7250 12500 7250
+Wire Wire Line
+	12500 7250 13250 7250
+Connection ~ 12500 7250
+Wire Wire Line
+	12000 7550 12250 7550
+Wire Wire Line
+	12250 7550 12250 7650
+Connection ~ 12250 7550
+Wire Wire Line
+	12250 7550 12500 7550
+Text GLabel 12250 7650 0    60   Input ~ 0
+GND
+Wire Notes Line
+	11000 6250 15850 6250
+Wire Notes Line
+	15850 6250 15850 9150
+Wire Notes Line
+	15850 9150 11000 9150
+$Comp
+L CustomSchematicLibrary:ATMEGA328P-AU U1
+U 1 1 5C7AE13A
+P 4250 6800
+F 0 "U1" H 3000 8100 50  0000 C CNN
+F 1 "ATMEGA328P-AU" H 5150 5400 50  0000 C CNN
+F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 4250 6800 50  0001 C CIN
+F 3 "http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf" H 4250 6800 50  0001 C CNN
+	1    4250 6800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6450 4550 6450 9200
+Wire Notes Line
+	6450 9200 800  9200
+Wire Notes Line
+	800  9200 800  4550
+Wire Notes Line
+	800  4550 6450 4550
+Connection ~ 1550 6700
+$Comp
+L CustomSchematicLibrary:CRYSTAL_TCXO_3.2mmWidth_2.5mmHeight TCXO1
+U 1 1 5CD795DB
+P 1550 7050
+F 0 "TCXO1" H 1750 7350 60  0000 L CNN
+F 1 "CRYSTAL_TCXO_3.2mmWidth_2.5mmHeight" H 1750 6600 60  0001 C CNN
+F 2 "CustomFootprintLibrary:CRYSTAL_3.2mmWidth_2.5mmHeight" H 1800 6500 60  0001 C CNN
+F 3 "" H 1550 7050 60  0000 C CNN
+	1    1550 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 6700 1200 7050
+Wire Wire Line
+	1550 6700 1200 6700
+Wire Wire Line
+	1550 6700 1550 6550
+Wire Wire Line
+	1550 7550 1550 7400
+Text GLabel 1550 7550 0    60   Input ~ 0
+GND
+Text GLabel 1550 6550 0    60   Input ~ 0
+VCC
+$Comp
+L CustomSchematicLibrary:CRYSTAL_TCXO_3.2mmWidth_2.5mmHeight TCXO2
+U 1 1 5CD87C4E
+P 11550 7250
+F 0 "TCXO2" H 11750 7550 60  0000 L CNN
+F 1 "CRYSTAL_TCXO_3.2mmWidth_2.5mmHeight" H 11750 6800 60  0001 C CNN
+F 2 "CustomFootprintLibrary:CRYSTAL_3.2mmWidth_2.5mmHeight" H 11800 6700 60  0001 C CNN
+F 3 "" H 11550 7250 60  0000 C CNN
+	1    11550 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 6750 11550 6900
+Wire Wire Line
+	11550 7750 11550 7600
+Wire Wire Line
+	11550 6900 11200 6900
+Wire Wire Line
+	11200 6900 11200 7250
+Connection ~ 11550 6900
+NoConn ~ 13250 7450
+Wire Wire Line
+	1900 7050 2800 7050
+$Comp
+L Sensor_Temperature:PT100 TH1
+U 1 1 5CD9D21D
+P 7500 5450
+F 0 "TH1" H 7598 5496 50  0000 L CNN
+F 1 "PT100" H 7598 5405 50  0000 L CNN
+F 2 "CustomFootprintLibrary:PTS060301B100RP100" H 7500 5500 50  0001 C CNN
+F 3 "https://www.heraeus.com/media/media/group/doc_group/products_1/hst/sot_to/de_15/to_92_d.pdf" H 7500 5500 50  0001 C CNN
+	1    7500 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5CD9EF7D
+P 7500 5050
+F 0 "R5" H 7559 5096 50  0000 L CNN
+F 1 "R_Small" H 7559 5005 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 7500 5050 50  0001 C CNN
+F 3 "~" H 7500 5050 50  0001 C CNN
+	1    7500 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 4850 2    60   Input ~ 0
+VCC
+Text GLabel 7500 5700 2    60   Input ~ 0
+GND
+Wire Wire Line
+	7500 4850 7500 4950
+Wire Wire Line
+	7500 5150 7500 5200
+Wire Wire Line
+	7500 5200 7300 5200
+Connection ~ 7500 5200
+Text Notes 7250 4700 0    50   ~ 0
+Temperature sensor
+Text GLabel 7300 5200 0    50   Input ~ 0
+VTEMP_SENSE
+Wire Notes Line
+	6650 4550 6650 5800
+Wire Notes Line
+	6650 5800 8100 5800
+Wire Notes Line
+	8100 5800 8100 4550
+Wire Notes Line
+	8100 4550 6650 4550
+Text GLabel 4600 5450 1    50   Input ~ 0
+VTEMP_SENSE
+Wire Wire Line
+	7500 5200 7500 5300
+Wire Wire Line
+	7500 5600 7500 5700
+Text GLabel 2800 6450 0    60   Input ~ 0
+GPS_V_BCKP
+NoConn ~ 3900 8250
+$Comp
+L Device:R R6
+U 1 1 5CDD45B5
+P 9350 5250
+F 0 "R6" V 9430 5250 50  0000 C CNN
+F 1 "10k" V 9350 5250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9280 5250 50  0001 C CNN
+F 3 "" H 9350 5250 50  0001 C CNN
+	1    9350 5250
+	0    1    1    0   
+$EndComp
+Text GLabel 9500 5250 2    60   Input ~ 0
+VCC
+Text GLabel 9200 5250 0    60   Input ~ 0
+SCL
+Text Notes 1650 7700 0    50   ~ 0
+TCXO\n(not mandatory)\n(fuses dictate)
 $EndSCHEMATC

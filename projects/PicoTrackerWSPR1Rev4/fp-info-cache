@@ -1,4 +1,4 @@
-164570904348828
+166217761891750
 adafruit
 1X01
 PIN HEADER
@@ -24248,13 +24248,6 @@ coin cell 2038
 3
 2
 CustomFootprintLibrary
-ABM8G-25.000MHZ-B4Y-T
-
-
-0
-4
-4
-CustomFootprintLibrary
 coilcraft-LPS3015-222
 
 
@@ -24269,6 +24262,13 @@ coilcraft-MSS5131-103
 2
 2
 CustomFootprintLibrary
+CRYSTAL_3.2mmWidth_2.5mmHeight
+
+
+0
+4
+4
+CustomFootprintLibrary
 CUT_TRACE
 
 
@@ -24282,6 +24282,13 @@ MSOP-12_MS
 0
 12
 12
+CustomFootprintLibrary
+PTS060301B100RP100
+
+
+0
+2
+2
 CustomFootprintLibrary
 QFN50P400X400X90-20N
 
