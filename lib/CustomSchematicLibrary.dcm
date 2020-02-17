@@ -6,4 +6,15 @@ K AVR 8bit Microcontroller MegaAVR
 F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
 $ENDCMP
 #
+$CMP ATMEGA328P-MU
+D TQFP32, 32k Flash, 2kB SRAM, 1024B EEPROM
+K AVR 8bit Microcontroller MegaAVR
+F http://www.atmel.com/images/atmel-8271-8-bit-avr-microcontroller-atmega48a-48pa-88a-88pa-168a-168pa-328-328p_datasheet.pdf
+$ENDCMP
+#
+$CMP MCP9808
+D MICROCHIP - MCP9808T-E/MC - TEMP SENSOR, I2C, -20 TO 100 DEG, 8DFN
+F https://componentsearchengine.com/Datasheets/1/MCP9808T-E_MC.pdf
+$ENDCMP
+#
 #End Doc Library
