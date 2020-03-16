@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name BreakoutGPSATGM336H-rescue)(type Legacy)(uri ${KIPRJMOD}/BreakoutGPSATGM336H-rescue.lib)(options "")(descr ""))
+)

@@ -55,8 +55,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 4050 4800 4050
 Wire Wire Line
-	6000 4150 6100 4150
-Wire Wire Line
 	6200 4050 6000 4050
 Wire Wire Line
 	6000 3950 6200 3950
@@ -68,10 +66,6 @@ Wire Wire Line
 	6200 3650 6000 3650
 Wire Wire Line
 	6200 3350 6000 3350
-NoConn ~ 6200 3550
-NoConn ~ 4800 4150
-NoConn ~ 4800 3850
-NoConn ~ 4800 3650
 $Comp
 L power:PWR_FLAG #FLG04
 U 1 1 5E5BA8EF
@@ -83,9 +77,6 @@ F 3 "~" H 6850 3850 50  0001 C CNN
 	1    6850 3850
 	0    1    1    0   
 $EndComp
-Connection ~ 6100 4150
-Wire Wire Line
-	6100 4150 6200 4150
 Text GLabel 6850 3850 0    50   Input ~ 0
 GND
 Text GLabel 6100 4150 3    50   Input ~ 0
@@ -114,4 +105,14 @@ Wire Wire Line
 	4800 3550 5000 3550
 Text GLabel 4950 3550 1    50   Input ~ 0
 GND
+Wire Wire Line
+	6000 4150 6200 4150
+Wire Wire Line
+	4800 3650 5000 3650
+Wire Wire Line
+	5000 3850 4800 3850
+Wire Wire Line
+	4800 4150 5000 4150
+Wire Wire Line
+	6000 3550 6200 3550
 $EndSCHEMATC
