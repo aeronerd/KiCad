@@ -17,4 +17,14 @@ D MICROCHIP - MCP9808T-E/MC - TEMP SENSOR, I2C, -20 TO 100 DEG, 8DFN
 F https://componentsearchengine.com/Datasheets/1/MCP9808T-E_MC.pdf
 $ENDCMP
 #
+$CMP MOSFET_SOT223_FQT13N06TF
+D N-Channel 2.8A, 60V, 140mOhm
+F https://www.fairchildsemi.com/datasheets/FQ/FQT13N06.pdf
+$ENDCMP
+#
+$CMP REG_3V3_NCP1117ST33T3G
+D 3.3v 1A out 20V max input
+F http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF
+$ENDCMP
+#
 #End Doc Library
